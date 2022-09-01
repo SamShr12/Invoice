@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+  color: white;
+  background: #ff854c;
+}
+
+input[type=text]{
+  height: 40px;
+  /* width: 120px; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  color:linear-gradient(to right, #7F7FD5,#86A8E7,#91EAE4) ;
+}
+
+.rounded-xl{
+  border-radius: 20px;
+}
+
+input[type=number]{
+  height: 40px;
+  width: 50px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  color:linear-gradient(to right, #7F7FD5,#86A8E7,#91EAE4) ;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.mt-10{
+  margin-top: 30px;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+
+.grid-3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+
+.grid-4{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+
+.grid-1{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+}
+
+
+.w-50{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.w-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-big{
+  font-size: 40px;
+  /* line-height: 80px; */
+  background:linear-gradient(to right, #7F7FD5,#86A8E7,#91EAE4) ;
+  background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+}
+
+.bd{
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 40px;
+  position: relative;
+  top: 10px;
+}
+
+.grid-5{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+}
+
+.box-shadow{
+  box-shadow: 5px 10px 15px #ebe9e9 ;
+}

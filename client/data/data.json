@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "123e0e9e-6afb-4e5d-b861-aac016ead00c",
+      "product_name": "lays",
+      "product_quan": "2",
+      "product_status": "work",
+      "product_price": "300",
+      "amount": 600
+    },
+    {
+      "id": "8526db18-da8b-4faf-93a3-0ad0ca6b282c",
+      "product_name": "juice",
+      "product_quan": "2",
+      "product_status": "work",
+      "product_price": "150",
+      "amount": 300
+    },
+    {
+      "id": "ad7e22f4-c665-4a5b-85f7-58d29e7e7ace",
+      "product_name": "Gooday",
+      "product_quan": "4",
+      "product_status": "Box",
+      "product_price": "300",
+      "amount": 1200
+    },
+    {
+      "id": "cb3a3b4a-7aa0-437b-9d09-e4b3b9a79928",
+      "product_name": "Gooday2",
+      "product_quan": "4",
+      "product_status": "Box",
+      "product_price": "350",
+      "amount": 1400
+    }
+  ]
+}
